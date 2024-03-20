@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 1%;
+  box-shadow: 10px 10px 10px grey;
+  padding: 10px;
+}
+.product-heading{
+  display: flex;
+  justify-content: space-between;
+}
+.product-image{
+  display: flex;
+  width: 298PX;
+}
+img{
+  width: 200px;
+}
+.product-summary{
+  text-align:justify;
+
+}
+
+.product-purchase{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
